@@ -1,0 +1,16 @@
+.container {
+  width: 1330px;
+}
+.header .textLogo {
+  font-size: xx-large;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.header .menu{
+  margin-top: 2%;
+  float: right;
+}
+.menu span a {
+  margin-right: 10%;
+  color: #777;
+}

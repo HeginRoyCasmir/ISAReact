@@ -1,0 +1,61 @@
+.fName, .lName{
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+}
+.outerBorder {
+    margin-top: 1%;
+}
+.registerForm .age {
+    width: 65%;
+    display: inline-block ;
+    margin-left: 6%;
+}
+.row{
+    margin-top: 15px;
+}
+.registerForm .email {
+    width: 65%;
+    display: inline-block;
+    margin-left: 5%;
+}
+.registerForm .phone {
+    display: inline-block;
+    width: 65%;
+    margin-left: 50px;
+}
+.registerForm .country{
+    display: inline-block;
+    width: 65%;
+    margin-left: 40px;
+}
+.registerForm .state{
+    display: inline-block;
+    width: 65%;
+    margin-left: 5%; 
+}
+.registerForm .addr{
+    display: inline-block;
+    width: 65%;
+    margin-left: 3%; 
+}
+.registerForm .interest {
+    display: inline-block;
+    width: 65%;
+    margin-left: 3%;
+}
+.registerForm .subscribe {
+    margin-left: 8%;
+}
+.imgPreview .image-upload img {
+    width: 85%;
+}
+.registerForm .submit {
+    float: right;
+    margin-right: 26%;
+    width: 15%;
+}
+.showAge {
+    margin: auto;
+    width: 25%;
+}
