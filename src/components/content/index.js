@@ -42,7 +42,14 @@ class Register extends Component {
                   </Carousel>
                 </Col> 
                 <Col xs={12} >
-                  <p>Basketball, The major sport played at Kurumpanai after Kabaddi. Basketball came up to Kurumpanai at Early 90's. Though Kabaddi</p>
+                  <div className="storyWrap">
+                    <div className="left">
+                      <div className="heading">Our Story</div>
+                    </div>
+                    <div className="right">
+                      <p>Basketball, The major sport played at Kurumpanai after Kabaddi. Basketball came up to Kurumpanai at Early 90's. Though Kabaddi is the major sport people started playing Basketball. With less facilities and hard work we came up and acheive lot and lot in Basketball.</p>
+                    </div>
+                  </div>
                 </Col>
               </div>
           </div>
