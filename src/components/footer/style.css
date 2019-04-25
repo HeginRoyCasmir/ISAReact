@@ -1,0 +1,23 @@
+.footer .logo {
+    width: 25%;
+}
+.fbshare {
+    display: inline;
+    float: right;
+}
+.wrap {
+    padding: 20px;
+    min-height: 125px;
+    position: relative;
+    z-index: 1;
+    background: #EEEEEE;
+    color: #5e5e5e;
+    font-size: 14px;
+    text-shadow: 0 -1px 0 #5e5e5e;
+}
+.withSmiles {
+    font-size: 24px;
+    margin-top: 25px;
+    line-height: 30px;
+    float: right;
+}
