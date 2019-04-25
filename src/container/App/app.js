@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 //import './app.css';
 import Header from '../../components/header/index';
+import Footer from '../../components/footer/index';
 import LandingPage from '../LandingPage/index';
 import RegisterForm from '../RegisterForm/index';
 //import Home from '../components/Home/Home';
@@ -12,8 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Route exact path="/" component={LandingPage} />
-        <Route path="/form" component={RegisterForm} />
+          <Route exact path="/" component={LandingPage} />
+          <Route path="/form" component={RegisterForm} />
+       <Footer />
        </div>
 
     );
