@@ -81,6 +81,7 @@ class Register extends Component {
                     </div>
                   </div>
                 </div>
+               <hr/>
               </Col>
             </div>
           </div>
