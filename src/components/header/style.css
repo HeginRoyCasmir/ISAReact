@@ -10,7 +10,12 @@
   margin-top: 2%;
   float: right;
 }
-.menu span a {
-  margin-right: 10%;
-  color: #777;
+.menu a {
+  margin-right: 5%;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+.menu li{
+  display: block;
 }
