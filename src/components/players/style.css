@@ -1,0 +1,12 @@
+.players .athelete {
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.players .basketText {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+}
