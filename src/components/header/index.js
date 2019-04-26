@@ -3,11 +3,6 @@ import './style.css';
 import { Col, Navbar, NavItem } from 'react-bootstrap';
 
 class Header extends Component {
-
-  // onPlay = () =>{
-  //   console.log('1223');
-  //   this.props.onPlay();
-  // }
   render() {
     return (
       <div className='header' >
