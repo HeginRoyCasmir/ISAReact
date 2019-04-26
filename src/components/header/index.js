@@ -1,28 +1,30 @@
 import React, { Component } from 'react';
 import './style.css';
-import { Col, Image, Navbar, Nav } from 'react-bootstrap';
-import Logo from '../../images/isa.png';
-
+import { Col, Navbar, NavItem } from 'react-bootstrap';
 
 class Header extends Component {
+
+  // onPlay = () =>{
+  //   console.log('1223');
+  //   this.props.onPlay();
+  // }
   render() {
     return (
       <div className='header' >
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand href="#home">
-            {/* <Image alt="" src={Logo} className="logo1"/> */}
             <h2 className="textLogo">ISA</h2>
           </Navbar.Brand>
           <Col xs={7} className="menu">
-            <Navbar.Brand>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Gallery</a>
-              <a href="#">Jersey</a>
-              <a href="#">Players</a>
-              <a href="#">Standings</a>
-              <a href="#">Contact</a>
-            </Navbar.Brand>
+            <NavItem>
+              <Navbar.Link onClick={this.props.onHome} > Home </Navbar.Link>
+              <Navbar.Link onClick={this.props.onGallery} > Gallery </Navbar.Link>
+              <Navbar.Link onClick={this.props.onFixtures} > Fixtures </Navbar.Link>
+              <Navbar.Link onClick={this.props.onJersey} > Jersey </Navbar.Link>
+              <Navbar.Link onClick={this.props.onPlay} > Players </Navbar.Link>
+              <Navbar.Link onClick={this.props.onLive} > Live </Navbar.Link>
+              <Navbar.Link onClick={this.props.onContact} > Contact </Navbar.Link>
+            </NavItem>
           </Col>
         </Navbar>
 
