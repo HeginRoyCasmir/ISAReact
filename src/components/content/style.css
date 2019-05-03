@@ -17,13 +17,21 @@
     margin-right: 30px;
     margin-bottom: 45px;
 }
-.storyWrap .heading, .valueWrap .heading{
+.storyWrap .heading{
     font-family: sans-serif;
     font-size: 60px;
     font-weight: 100;
     letter-spacing: .1em;
     line-height: 1em;
-    color: #5e5e5e;
+    color: #db3236;
+}
+.valueWrap .heading{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 1em;
+    color: #3cba54;
 }
 .storyWrap .right, .valueWrap .right{
     float: right;
