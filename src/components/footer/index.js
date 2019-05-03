@@ -9,7 +9,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <Col xs={12} md={12} className="wrapfoot">
-                    <Col xs={4} md={4}>
+                    <Col xs={2} md={4}>
                         <div className="logos">
                             <Image src={Logo} className="logo" />
                         </div>
