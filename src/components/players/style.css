@@ -10,3 +10,27 @@
     font-family: sans-serif;
     text-align: left;
 }
+.card{
+    border: 1px solid #7e7e7e;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card .cardImg {
+    width: 100%;
+}
+.card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #5e5e5e;
+}
+.card .card-body p span:nth-child(1) {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5e5e5e;
+}.card .card-body p span:nth-child(2) {
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+}
