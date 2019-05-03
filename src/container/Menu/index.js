@@ -10,9 +10,12 @@ export class Menu extends Component {
     onPlay = (e) => {
        this.props.history.push('/play');
     }
+    onAdmin = (e) => {
+        this.props.history.push('/admin');
+     }
     render() {
         return (
-            <Header onPlay={this.onPlay} />
+            <Header onPlay={this.onPlay} onAdmin={this.onAdmin}/>
         );
     }
 
