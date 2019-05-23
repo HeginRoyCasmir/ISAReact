@@ -6,16 +6,21 @@ import * as actionTypes from '../../store/actions/actionTypes';
 import * as actions from '../../store/actions/auth';
 
 export class Menu extends Component {
-
+    onHome = (e) => {
+        this.props.history.push('/');
+    }
     onPlay = (e) => {
        this.props.history.push('/play');
     }
+    onLive = (e) => {
+        this.props.history.push('/live');
+     }
     onAdmin = (e) => {
         this.props.history.push('/admin');
      }
     render() {
         return (
-            <Header onPlay={this.onPlay} onAdmin={this.onAdmin}/>
+            <Header onHome={this.onHome} onPlay={this.onPlay} onLive={this.onLive} onAdmin={this.onAdmin}/>
         );
     }
 
