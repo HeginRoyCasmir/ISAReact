@@ -35,7 +35,7 @@
 }
 .storyWrap .right, .valueWrap .right{
     float: right;
-    width: 650px;
+    width: 50%;
     margin-bottom: 25px;
 }
 .storyWrap .right p, .valueWrap .right p {
@@ -74,6 +74,13 @@
     width: 100%;
     overflow: hidden;
     margin-top: 5%;
+}
+.spons {
+    margin-left: 15%;
+}
+.cont {
+    margin-top: 5%;
+    padding-left: 20%;
 }
 .clearFix{
     display: table;
@@ -123,4 +130,26 @@
     width: 145px;
     margin-right: auto;
     border-radius: 5px;
+}
+
+            /*Mobile*/
+@media only screen and  (max-width : 767px){ 
+    .storyWrap .right, .valueWrap .right{
+        width: 100%;
+        margin-bottom: 25px;
+        padding: 1px 10px;
+        text-align: justify;
+    }
+    .spons {
+        margin-left: 0%;
+    }
+    .cont {
+        margin-top: 8%;
+        padding-left: 28%;
+    }
+    .clearFix {
+        display: table;
+        width: 100%;
+        margin: 35px 0 123px;
+    }
 }
