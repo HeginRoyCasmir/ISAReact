@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './style.css';
 import { Col, Image, Carousel } from 'react-bootstrap';
 import banner from '../../images/bnrgroup.jpeg';
-import ISA from '../../images/isa.png';
+import content from '../../images/contMob.jpg';
 
 class Register extends Component {
   constructor(props, context) {
@@ -31,7 +31,7 @@ class Register extends Component {
           <Col xs={12}>
             <Carousel>
               <Carousel.Item>
-                <img className="d-block w-100" src={banner} alt="First slide" />
+                <img className="d-block w-100 cover" src={banner} alt="First slide" />
               </Carousel.Item>
             </Carousel>
           </Col>
@@ -48,7 +48,7 @@ class Register extends Component {
             </div>
           </Col>
           <Col xs={12}>
-            <Image src='' className="parrel" />
+            <Image src={content} className="parrel" />
           </Col>
           <Col xs={12}>
             <div className="valueWrap">
@@ -68,11 +68,15 @@ class Register extends Component {
           <Col xs={12}>
             <div className="sponsWrap">
               <div className="clearFix">
-                <div className="heading">Would you Like to Sponsor for the Tournament</div>
-                <div>
-                  <p>Contact Us</p>
-                  <h4>+91-9629336103</h4>
-                </div>
+                <Col md={4} className={"col-xs-12 spons"}>
+                  <div className="heading">Would you Like to Sponsor for the Tournament</div>
+                </Col>
+                <Col md={6} className={"col-xs-12 cont"}>
+                  <div>
+                    <p>Contact Us</p>
+                    <h4>+91-9629336103</h4>
+                  </div>
+                </Col>
               </div>
             </div>
             <hr />
