@@ -2,13 +2,23 @@
 import * as actionTypes from '../../store/actions/actionTypes';
 import {withRouter} from 'react-router-dom';
 import{connect } from 'react-redux';
-export const auth=(fname)=>{
+export const auth=(url)=>{
     const data={
-        fname:fname
+        url:url
        
     }
     return{
-       type:actionTypes.LOGIN,
+       type:actionTypes.CLICK,
+       payload:data
+    }
+}
+export const authe=(sco)=>{
+    const data={
+        sco:sco
+       
+    }
+    return{
+       type:actionTypes.SCORE,
        payload:data
     }
 }
