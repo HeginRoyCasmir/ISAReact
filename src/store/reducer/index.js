@@ -1,7 +1,8 @@
 import * as actionTypes from '../actions/actionTypes';
 
 const initialState = {
-    firstname: {},
+    youtube: {},
+    score: {},
 }
 
 const reducer = (state = initialState, action) => {
@@ -9,9 +10,12 @@ const reducer = (state = initialState, action) => {
 
         case actionTypes.LOGIN_SUCCESS:
             return { ...state, loginStatus: true, hideHeader: false, userToken: action.payload }
-        case actionTypes.LOGIN:
+        case actionTypes.CLICK:
             console.log("action.payload", action.payload)
-            return { ...state, firstname: action.payload }
+            return { ...state, youtube: action.payload }
+        case actionTypes.SCORE:
+            console.log("action.payload", action.payload)
+            return { ...state, score: action.payload }
         case 'IFGARRAY':
             return { ...state, results: state.results.concat(action.payload) }
         case actionTypes.AUTH_FAIL:
