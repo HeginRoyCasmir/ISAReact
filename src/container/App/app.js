@@ -7,7 +7,7 @@ import Menu from '../Menu/index';
 import Players from '../../components/players/index';
 import Live from '../../components/live/index';
 import Admin from '../../components/admin/index';
-import Scoreboard from '../../components/scoreboard/index';
+import Scoreboard from '../../components/score/index';
 //import Home from '../components/Home/Home';
 import { Route } from 'react-router-dom';
 import history from '../../history.js';
