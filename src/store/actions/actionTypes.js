@@ -1,5 +1,6 @@
 export const LOGIN='LOGIN';
 export const CLICK='CLICK';
+export const SCORE='SCORE';
 
 export const  AUTH='AUTH';
 export const  AUTH_START='AUTH_START';
